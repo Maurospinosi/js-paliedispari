@@ -22,10 +22,22 @@ if (paridispari == "pari" || paridispari == "dispari"){
        var somma = parseInt(uno_cinque + numCasuale);
        alert("La somma del numero estratto dal Pc e del numero scelto dall'utente è" + " " + somma);
 
-     // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).Dichiariamo chi ha vinto.
-      if(paridispari == "pari" && somma % 2 ==0 ){
+     // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+     function functionPari(x) {
+        var pari = somma % 2 ==0;
+        return pari;
+     }
+     var si = functionPari(somma);
+     function functionDispari(y) {
+        var dispari = somma % 2 ==1;
+        return dispari;
+     }
+     var no = functionDispari(somma);
+
+     // Dichiariamo chi ha vinto.
+      if(paridispari == "pari" && si ){
         alert("La somma dei due numeri è pari : Hai vinto!");
-      } else if (paridispari == "dispari" && somma % 2 ==1 ){
+      } else if (paridispari == "dispari" && no){
         alert("La somma dei due numeri è dispari : Hai vinto!");
       } else {
         alert("hai perso..... :( ");
@@ -44,10 +56,22 @@ if (paridispari == "pari" || paridispari == "dispari"){
        var somma =  parseInt(uno_cinque + numCasuale);
        alert("La somma del numero estratto dal Pc e del numero scelto dall'utente è" + " " + somma);
 
-       // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).Dichiariamo chi ha vinto.
-        if(paridispari == "pari" && somma % 2 ==0 ){
+       // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+       function functionPari(x) {
+          var pari = somma % 2 ==0;
+          return pari;
+       }
+       var si = functionPari(somma);
+       function functionDispari(y) {
+          var dispari = somma % 2 ==1;
+          return dispari;
+       }
+       var no = functionDispari(somma);
+
+       // Dichiariamo chi ha vinto.
+        if(paridispari == "pari" && si ){
           alert("La somma dei due numeri è pari : Hai vinto!");
-        } else if (paridispari == "dispari" && somma % 2 ==1 ){
+        } else if (paridispari == "dispari" && no){
           alert("La somma dei due numeri è dispari : Hai vinto!");
         } else {
           alert("hai perso..... :( ");
@@ -66,10 +90,22 @@ if (paridispari == "pari" || paridispari == "dispari"){
         var somma = parseInt(uno_cinque + numCasuale);
         alert("La somma del numero estratto dal Pc e del numero scelto dall'utente è" + " " + somma);
 
-        // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).Dichiariamo chi ha vinto.
-         if(paridispari == "pari" && somma % 2 ==0 ){
+        // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+        function functionPari(x) {
+           var pari = somma % 2 ==0;
+           return pari;
+        }
+        var si = functionPari(somma);
+        function functionDispari(y) {
+           var dispari = somma % 2 ==1;
+           return dispari;
+        }
+        var no = functionDispari(somma);
+
+        // Dichiariamo chi ha vinto.
+         if(paridispari == "pari" && si ){
            alert("La somma dei due numeri è pari : Hai vinto!");
-         } else if (paridispari == "dispari" && somma % 2 ==1 ){
+         } else if (paridispari == "dispari" && no){
            alert("La somma dei due numeri è dispari : Hai vinto!");
          } else {
            alert("hai perso..... :( ");
@@ -88,10 +124,22 @@ if (paridispari == "pari" || paridispari == "dispari"){
         var somma = parseInt(uno_cinque + numCasuale);
         alert("La somma del numero estratto dal Pc e del numero scelto dall'utente è" + " " + somma);
 
-        // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).Dichiariamo chi ha vinto.
-         if(paridispari == "pari" && somma % 2 ==0 ){
+        // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+        function functionPari(x) {
+           var pari = somma % 2 ==0;
+           return pari;
+        }
+        var si = functionPari(somma);
+        function functionDispari(y) {
+           var dispari = somma % 2 ==1;
+           return dispari;
+        }
+        var no = functionDispari(somma);
+
+        // Dichiariamo chi ha vinto.
+         if(paridispari == "pari" && si ){
            alert("La somma dei due numeri è pari : Hai vinto!");
-         } else if (paridispari == "dispari" && somma % 2 ==1 ){
+         } else if (paridispari == "dispari" && no){
            alert("La somma dei due numeri è dispari : Hai vinto!");
          } else {
            alert("hai perso..... :( ");
@@ -110,10 +158,22 @@ if (paridispari == "pari" || paridispari == "dispari"){
         var somma = parseInt(uno_cinque + numCasuale);
         alert("La somma del numero estratto dal Pc e del numero scelto dall'utente è" + " " + somma);
 
-        // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).Dichiariamo chi ha vinto.
-         if(paridispari == "pari" && somma % 2 ==0 ){
+        // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+        function functionPari(x) {
+           var pari = somma % 2 ==0;
+           return pari;
+        }
+        var si = functionPari(somma);
+        function functionDispari(y) {
+           var dispari = somma % 2 ==1;
+           return dispari;
+        }
+        var no = functionDispari(somma);
+
+        // Dichiariamo chi ha vinto.
+         if(paridispari == "pari" && si ){
            alert("La somma dei due numeri è pari : Hai vinto!");
-         } else if (paridispari == "dispari" && somma % 2 ==1 ){
+         } else if (paridispari == "dispari" && no){
            alert("La somma dei due numeri è dispari : Hai vinto!");
          } else {
            alert("hai perso..... :( ");

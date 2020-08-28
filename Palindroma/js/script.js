@@ -2,11 +2,20 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 var domanda = prompt("Inserisci una parola");
 
-for(var i=0; i< domanda.length; i++){
-  console.log(domanda);
+console.log(domanda);
+
+if(domanda == parola){
+  console.log("La parola è palindroma");
+}else{
+  console.log("La parola non è palindroma");
 }
 
-
-if (i == i.reverse()){
-  console.log("ok");
+function functionParolaCapo(stringa) {
+  var stringaCapovolta = "";
+  for (var i = stringa.length -1; i >= 0; i--){
+    var stringaCapovolta = stringaCapovolta + stringa[i];
+  }
+  return stringaCapovolta;
 }
+var parola = functionParolaCapo(domanda);
+console.log(parola);
